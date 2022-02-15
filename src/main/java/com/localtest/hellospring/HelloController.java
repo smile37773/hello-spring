@@ -12,6 +12,6 @@ public class HelloController {
      */
     @GetMapping("/hello")
     public String world() {
-        return "Hello, world @" + new Date().toString() + "!";
+        return "(test)Hello, world @" + new Date().toString() + "!";
     }
 }
